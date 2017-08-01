@@ -9,11 +9,11 @@ const onClick = () => {}
 
 <button onClick= title= />
 ```
-instead of:
+instead of (already supported):
 ```jsx
 <button onClick={onClick} title={title} />
 ```
-or:
+or (also already supported):
 ```jsx
 <button {...{onClick, title}} />
 ```
