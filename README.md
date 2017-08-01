@@ -4,15 +4,16 @@ A proposal for JSX attribute shorthand syntax.
 Similar to https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015
 
 ```jsx
+const title = 'something'
 const onClick = () => {}
 
-<button onClick= />
+<button onClick= title= />
 ```
 instead of:
 ```jsx
-<button onClick={onClick} />
+<button onClick={onClick} title={title} />
 ```
 or:
 ```jsx
-<button {...{onClick}} />
+<button {...{onClick, title}} />
 ```
