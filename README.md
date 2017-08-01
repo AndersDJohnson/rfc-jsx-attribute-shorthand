@@ -9,6 +9,14 @@ const onClick = () => {}
 
 <button onClick= title= />
 ```
+or:
+```jsx
+<button {onClick} {title} />
+```
+or:
+```jsx
+<button {onClick, title} />
+```
 instead of (already supported):
 ```jsx
 <button onClick={onClick} title={title} />
