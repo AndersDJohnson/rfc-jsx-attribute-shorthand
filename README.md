@@ -15,7 +15,10 @@ or:
 ```
 or:
 ```jsx
-<button {onClick, title} />
+<button { onClick, title } />
+or:
+```jsx
+<button {{ onClick, title }} />
 ```
 instead of (already supported):
 ```jsx
