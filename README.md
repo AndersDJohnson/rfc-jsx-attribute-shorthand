@@ -30,3 +30,5 @@ or (also already supported):
 ```jsx
 <button {...{onClick, title}} />
 ```
+
+See also: https://github.com/facebook/jsx/issues/23#issuecomment-362454712
